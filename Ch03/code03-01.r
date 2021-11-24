@@ -4,3 +4,4 @@ print(total)                   # 방법 2
 cat('합계 :', total)           # 방법 3
 ##
 ##
+##
