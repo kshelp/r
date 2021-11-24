@@ -1,0 +1,1 @@
+boxplot(state.x77[,'Population']~state.region)

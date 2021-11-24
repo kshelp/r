@@ -1,0 +1,5 @@
+library(xlsx)
+setwd('C:/Rworks/test')
+my.mtcars <- subset(mtcars, cyl <= 6)
+write.xlsx(my.mtcars, 'test.xlsx', row.names = F)
+new.mtcars <- read.xlsx('test.xlsx', header = T, sheetIndex = 1)
