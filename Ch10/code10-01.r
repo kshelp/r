@@ -22,3 +22,4 @@ par(mar=c(1,1,4,1))
 pie(tbl, main='선실별 탑승객',       
     col=c('blue', 'green', 'yellow'))                    
 par(mar=c(5.1,4.1,4.1,2.1))
+

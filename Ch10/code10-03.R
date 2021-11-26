@@ -1,5 +1,5 @@
 # (1) 자료 준비
-ds <- read.csv('c:/Rworks/fdeaths.csv', row.names='year')
+ds <- read.csv('./Ch10/fdeaths.csv', row.names='year')
 ds
 
 #(2) 선그래프 작성

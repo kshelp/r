@@ -1,3 +1,4 @@
+install.packages("svDialogs")
 library(svDialogs)
 purchase <- dlgInput('Enter the purchase amount')$res
 purchase <- as.numeric(purchase )
