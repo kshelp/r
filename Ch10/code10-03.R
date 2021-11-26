@@ -31,3 +31,4 @@ legend(x='topright',               # 범례의 위치
        col=my.col,                 # 선의 색
        legend=1974:1979            # 범례의 내용
 )
+

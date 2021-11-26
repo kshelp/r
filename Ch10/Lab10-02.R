@@ -1,4 +1,5 @@
 # (1)
+install.packages("DAAG")
 library(DAAG)
 str(carprice)
 carprice$Price   # 자동차 가격
